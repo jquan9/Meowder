@@ -88,14 +88,35 @@ p {
 /* Testimonials Section */
 
 #testimonials{
-  padding: 7% 15%;
   text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
 
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Fix the photos */
 .cat-profile {
   max-width: 10%;
-  border-radius: 100%;
+  border-radius: 50%;
   margin: 20px;
+}
+
+.cat-profile2 {
+  max-width: 30%;
+  border-radius: 100%;
+  margin: 20px 20px 100px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
 }
