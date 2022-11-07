@@ -3,6 +3,7 @@ body {
   font-family: "Montserrat";
 }
 
+
 #title {
   background-color: #ff4c68;
   color: #fff;
@@ -62,7 +63,7 @@ p {
 
 .title-image {
   height: auto;
-  max-width: 75%;
+  max-width: 55%;
   border-radius: 50%;
 }
 
@@ -91,6 +92,7 @@ p {
   text-align: center;
   background-color: #ef8172;
   color: #fff;
+  height: 700px;
 }
 
 .carousel-item {
@@ -107,16 +109,43 @@ p {
 .cat-profile2 {
   max-width: 30%;
   border-radius: 100%;
-  margin: 20px 20px 100px;
+  margin: 20px 20px;
 }
 
 #press {
   background-color: #ef8172;
   text-align: center;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
 }
 
 .press-logo {
   width: 12%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+#cta {
+
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
 }
